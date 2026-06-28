@@ -9,7 +9,7 @@
 | It can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['botToken'] = $_ENV['8858881703:AAFzhkqaXRHi25H6F01c6mTZKoWRQsOt07k'];
+$config['botToken'] = $_ENV['BOT_TOKEN'];
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ $config['botToken'] = $_ENV['8858881703:AAFzhkqaXRHi25H6F01c6mTZKoWRQsOt07k'];
 | ID can be obtained from https://telegram.dog/username_to_id_bot
 |
 */
-$config['adminID'] = $_ENV['checmanBot'];
+$config['adminID'] = $_ENV['ADMIN_ID'];
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ $config['adminID'] = $_ENV['checmanBot'];
 | ID can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['logsID'] =  $_ENV['https://t.me/+uji0e00qeuM5NGUx'];
+$config['logsID'] =  $_ENV['LOGS_DUMP_ID'];
 
 /*
 |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ $config['logsID'] =  $_ENV['https://t.me/+uji0e00qeuM5NGUx'];
 | By Default it's in IST
 |
 */
-$config['timeZone'] =  $_ENV['America/New_York'];
+$config['timeZone'] =  $_ENV['TIMEZONE'];
 
 /*
 |--------------------------------------------------------------------------
@@ -52,10 +52,10 @@ $config['timeZone'] =  $_ENV['America/New_York'];
 | Database to Store User Data
 |
 */
-$config['db']['hostname'] =  $_ENV['sql5.freesqldatabase.com'];
-$config['db']['username'] =  $_ENV['sql5831750'];
-$config['db']['password'] =  $_ENV['MH4Q5WneDK'];
-$config['db']['database'] =  $_ENV['sql5831750'];
+$config['db']['hostname'] =  $_ENV['DB_HOST'];
+$config['db']['username'] =  $_ENV['DB_USERNAME'];
+$config['db']['password'] =  $_ENV['DB_PASSWORD'];
+$config['db']['database'] =  $_ENV['DB_NAME'];
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ $config['db']['database'] =  $_ENV['sql5831750'];
 | Value is in Seconds. "20" = 20seconds
 |
 */
-$config['anti_spam_timer'] =  $_ENV['20'];
+$config['anti_spam_timer'] =  $_ENV['ANTISPAM_TIMER'];
 
 /*
 |--------------------------------------------------------------------------
@@ -78,5 +78,5 @@ $config['anti_spam_timer'] =  $_ENV['20'];
 | array('sk1','sk2','sk3')
 |
 */
-$config['sk_keys'] =  explode(",", $_ENV['sk_live_69GKI0saLB8uIEnxzv8VTvRX']);
+$config['sk_keys'] =  explode(",", $_ENV['SK_KEYS']);
 ?>
