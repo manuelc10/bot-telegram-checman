@@ -7,42 +7,42 @@
         "Bot",
         "Modular"
     ],
-    "website": "https://telegram.me/SDMN_CheckerBot",
-    "repository": "https://github.com/iam-NVN/SDMN_CheckerBot",
+    "website": "https://telegram.dog/checmanBot",
+    "repository": "https://github.com/manuelc10/bot-telegram-checman/tree/main",
     "env": {
         "BOT_TOKEN": {
             "description": "Enter your Bot Token Here. Get it from @Botfather",
-            "value": "",
+            "value": "8858881703:AAFzhkqaXRHi25H6F01c6mTZKoWRQsOt07k",
             "required": true
         },
         "ADMIN_ID": {
             "description": "Enter the User ID of Admin.",
-            "value": "",
+            "value": "checmanBot",
             "required": true
         },
         "LOGS_DUMP_ID": {
             "description": "Enter the ID of a Group/Channel to store Logs",
-            "value": "",
+            "value": "https://t.me/+uji0e00qeuM5NGUx",
             "required": true
         },
         "DB_HOST": {
             "description": "Database URL",
-            "value": "",
+            "value": "sql5.freesqldatabase.com",
             "required": true
         },
         "DB_USERNAME": {
             "description": "Database Username",
-            "value": "",
+            "value": "sql5831750",
             "required": true
         },
         "DB_PASSWORD": {
             "description": "Database Password",
-            "value": "",
+            "value": "MH4Q5WneDK",
             "required": true
         },
         "DB_NAME": {
             "description": "Database Name",
-            "value": "",
+            "value": "sql5831750",
             "required": true
         },
         "ANTISPAM_TIMER": {
@@ -52,12 +52,12 @@
         },
         "SK_KEYS": {
             "description": "Enter SK Keys Here. Separate Multiple Keys with ,",
-            "value": "",
+            "value": "sk_live_69GKI0saLB8uIEnxzv8VTvRX",
             "required": false
         },
         "TIMEZONE": {
             "description": "Your Preffered TimeZone",
-            "value": "Asia/Kolkata",
+            "value": "America/New_York",
             "required": false
         }
     },
